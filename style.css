@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#logo{
+	height: 100px;
+	width: 100px;
+}
+#btnme{
+	padding: 10px;
+	background-color: maroon;
+	height: 130px;
+	width: 130px;
+	border: none;
+	text-align: center;
+
+}
