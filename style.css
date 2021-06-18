@@ -2,18 +2,61 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Pangolin', cursive;
+
 }
+/*body{
+	background-image: url('./images/bubblydefault.gif');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+}*/
 
 #logo{
 	height: 100px;
 	width: 100px;
 }
 #btnme{
-	padding: 10px;
-	background-color: maroon;
+
+	padding-top: 45px;
+	margin-right: 45px;
+	margin-top: 30px;
+	background-color: #00ff48;
 	height: 130px;
 	width: 130px;
 	border: none;
 	text-align: center;
+}
+#btnprojects{
+	padding-top: 45px;
+	margin-right: 45px;
+	margin-top: 30px;
+	background-color: #8c00ff;
+	height: 130px;
+	width: 130px;
+	border: none;
+	text-align: center;
+}
+#btncontact{
+	padding-top: 45px;
+	margin-top: 30px;
+	background-color: #ff0800;
+	height: 130px;
+	width: 130px;
+	border: none;
+	text-align: center;
+}
+#projects img {
+	height: 150px;
+	width: 150px;
+}
+#homepage {
+	margin-bottom: 100px;
+}
+
+footer{
+
+	background-color: #00ffb3;
 
 }
