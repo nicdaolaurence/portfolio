@@ -3,60 +3,331 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Pangolin', cursive;
+	scroll-behavior: smooth;
+}
+
+/*#navbarNav{
+	display: flex;
+	justify-content: flex-end;
+}*/
+
+	
+
+#about h1{
+	font-size: 64px;
+	text-align: center;
+	color: #000c3d;
+	text-transform: uppercase;
 
 }
-/*body{
-	background-image: url('./images/bubblydefault.gif');
+#about img{
+	border-radius: 50%;
+	height: 450px;
+	width: 450px;
+	border: 10px solid #000c3d;
+	/*margin-bottom: 20px;*/
+
+}
+#about h5{
+	font-size: 32px;
+	font-style: italic;
+
+}
+#about p{
+	margin-top: 15px;
+	font-size: 24px;
+}
+#about .jumbotron{
+	height: 100vh;
+
+}
+.custom-navbar{
+	background-color: #000c3d;
+	
+}
+.custom-navbar a{
+	color: white;
+
+}
+.custom-navbar > a{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 24px;
+	border: 2px solid orange;
+
+}
+.custom-navbar a:hover{
+	color: orange;
+}
+/*.custom-navbar a:active{
+	color: orange;
+}*/
+#homepage .jumbotron{
+	color: white;
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.9)
+    ),url("./images/pexels-hasan-albari-1229861.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 100%;
+	background-position: center;
+	height: 100vh;
+	padding-top: 40vh;
+	text-align: left;
+	font-weight: bold;
+	
+}
+
+
+
+
+#projects .jumbotron{
+	color: white;
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.9)
+    ),url("./images/projectbg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	/*padding-top: 40vh;*/
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#projects .jumbotron h1{
+	text-align: center;
+}
+
+#projects .jumbotron .card{
+	background: none;
+	border: none;
+}
+
+
+#projects .jumbotron .btn{
+	color: white;
+	width: 50px;
+	background-color: none;
+	border: 1px solid #02d4f5;
+	transition-duration: 0.4s;
+
+
+}
+#projects .jumbotron .btn:hover{
+	color: white;
+	background-color: #02d4f5;
+	
+}
+#projects .jumbotron .card-btn a{
+	width: 50%;
+}
+
+#projects .jumbotron .card-title span{
+	text-transform: lowercase;
+	color: orange;
+
+}
+#projects .jumbotron .card-text{
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
+#projects .jumbotron .card-img-top{
+	height: 200px;
+	width: 300px;
+}
+
+#footer{
+	text-align: center;
+	color: white;
+	background-color: #010b33;
+}
+#footer .container-fluid .row .footer-nav .footer-nav-list p{
+	text-align: center;
+	padding: 0;
+	margin: 5px;
+}
+#footer .container-fluid .row .footer-nav .footer-nav-list p a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+#footer .container-fluid .row .footer-nav .footer-nav-list p a:hover{
+	color: orange;
+
+}
+
+#contact h1{
+	font-size: 64px;
+	text-align: center;
+	color: #000c3d;
+	text-transform: uppercase;
+}
+#contact button{
+	color: black;
+	width: 150px;
+	background-color: none;
+	border: 1px solid #02d4f5;
+	transition-duration: 0.4s;
+}
+#contact button:hover {
+	color: black;
+	background-color: #02d4f5;
+}
+#contact input{
+	border: 1px solid #02d4f5;
+}
+#contact input:hover{
+	border: 1px solid black;
+}
+#contact textarea{
+	border: 1px solid #02d4f5;
+}
+#contact textarea:hover{
+	border: 1px solid black;
+}
+#contact iframe{
+	border: 2px solid #02d4f5;
+}
+
+
+
+/*@media (min-width: 320px) {
+	.col-12{
+		width: 100%;
+	}
+	.navbar{
+		width: 100%;
+	}
+	
+	
 }*/
 
-#logo{
-	height: 100px;
-	width: 100px;
-}
-#btnme{
 
-	padding-top: 45px;
-	margin-right: 45px;
-	margin-top: 30px;
-	background-color: #00ff48;
-	height: 130px;
-	width: 130px;
-	border: none;
-	text-align: center;
-}
-#btnprojects{
-	padding-top: 45px;
-	margin-right: 45px;
-	margin-top: 30px;
-	background-color: #8c00ff;
-	height: 130px;
-	width: 130px;
-	border: none;
-	text-align: center;
-}
-#btncontact{
-	padding-top: 45px;
-	margin-top: 30px;
-	background-color: #ff0800;
-	height: 130px;
-	width: 130px;
-	border: none;
-	text-align: center;
-}
-#projects img {
-	height: 150px;
-	width: 150px;
-}
-#homepage {
-	margin-bottom: 100px;
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
 }
 
-footer{
+.fa:hover {
+    opacity: 0.7;
+}
 
-	background-color: #00ffb3;
+.fa-facebook {
+	
+ /* background: #3B5998;*/
+  color: white;
+  background: #3B5998;
+}
 
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
 }
